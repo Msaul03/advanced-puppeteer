@@ -1,0 +1,24 @@
+{
+  "name": "puppeter",
+  "version": "1.0.0",
+  "description": "Curso básico de automatización con Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<Saulalejandro41.0308@gmail.com>"
+  },
+  "author": "Saul Martinez",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.1",
+    "jest-image-snapshot": "^5.2.0",
+    "prettier": "^2.7.1",
+    "puppeteer": "^17.0.0"
+  },
+  "dependencies": {
+    "@axe-core/puppeteer": "^4.4.4"
+  }
+}
